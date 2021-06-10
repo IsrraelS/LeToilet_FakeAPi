@@ -1,16 +1,34 @@
 {
-  "posts":[
+  "venues": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": 1,
+      "name": "ToiletExample",
+      "pay": "free",
+      "accessibility": "no",
+      "geometry": [
+        40.4167,
+        -3.70325
+      ]
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 2,
+      "name": "ToiletExample2",
+      "pay": "private",
+      "accessibility": "yes",
+      "geometry": [
+        40.4167,
+        -3.70225
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aeropuerto de Barajas",
+      "pay": "free",
+      "accessibility": "accessibility",
+      "geometry": [
+        40.490768,
+        -3.591874
+      ]
     }
   ]
 }
